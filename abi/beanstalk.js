@@ -1,0 +1,1 @@
+module.exports = [{"inputs":[{"internalType":"address","name":"_contractOwner","type":"address"}],"stateMutability":"nonpayable","type":"constructor"},{"stateMutability":"payable","type":"fallback"},{"stateMutability":"payable","type":"receive"}]

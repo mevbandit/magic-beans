@@ -1,0 +1,19 @@
+{
+  "name": "FluffyMemorableHypercard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@flashbots/ethers-provider-bundle": "^0.4.3",
+    "ethers": "^5.5.2",
+    "gas-price-oracle": "^0.4.4",
+    "uniswap-v2-helper": "^1.1.0",
+    "web3": "^1.6.1"
+  }
+}
