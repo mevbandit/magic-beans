@@ -12,6 +12,9 @@ Send FB request to call the function every 5 seconds with high enough gas bid ou
 
 ## How is this basic?
 
-1.) **Simple RPC**: You are only interacting with Flashbots' [MEV-Relay](https://docs.flashbots.net/flashbots-auction/searchers/quick-start/). This is not a latency dependant strategy, you do not need to establish a strong node peer network. 
-2.) **No Graph Theory** You don't have to worry about any pair scanning (you do not need to fetch state of AMMs), due to the length of the rebalance period (spans over ~ 240 blocks. 
-2.) **Low Competition** This is not a highly capital intesive strategy, it does not require much modality. The game theory is quite clear.
+### Simple RPC
+You are only interacting with Flashbots' [MEV-Relay](https://docs.flashbots.net/flashbots-auction/searchers/quick-start/). This is not a latency dependant strategy, you do not need to establish a strong node peer network. 
+### No Graph Theory
+You don't have to worry about any pair scanning (you do not need to fetch state of AMMs), due to the length of the rebalance period (spans over ~ 240 blocks. 
+### Low Competition
+This is not a highly capital intesive strategy, it does not require much modality. The game theory is quite clear. This strategy is below the caliber of interest of most searcher bots, it does not come up on as an attractive opportunity when searching through mev-inspect. 
