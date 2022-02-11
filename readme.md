@@ -17,4 +17,4 @@ You are only interacting with Flashbots' [MEV-Relay](https://docs.flashbots.net/
 ### No Graph Theory
 You don't have to worry about any pair scanning (you do not need to fetch state of AMMs), due to the length of the rebalance period (spans over ~ 240 blocks). 
 ### Low Competition
-This is not a highly capital intesive strategy, it does not require much modality. The game theory is quite clear. This strategy is below the caliber of interest of most searcher bots, it does not come up on as an attractive opportunity when searching through mev-inspect. 
+This is not a highly capital intesive strategy, it does not require much modality, and you don't end up with 99% profit going to the miner. The game theory is quite clear. This op is below the caliber of interest of most bots. 
