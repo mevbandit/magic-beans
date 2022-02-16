@@ -23,7 +23,7 @@ async function initialize() {
 // need to change unhandled promise rejection behavior via: npm run build --unhandled-rejections=strict
 async function dosunrise() {
     try {
-        const authSigner = new ethers.Wallet('0x772322a0950527f41240b7f644916e5221eb6e16365fc6abf6147eac1f101a78')
+        const authSigner = new ethers.Wallet('privatekey')
         
         const flashbotsProvider = await FlashbotsBundleProvider.create(provider, authSigner)
 
