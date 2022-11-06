@@ -1,4 +1,4 @@
-# Super simple long tail example: Bean Finance
+# Offensive stablecoin protocol rebalancing: Bean Finance
 
 [Beanstalk](https://bean.money/docs/beanstalk.pdf) is a stablecoin protocol that uses a decentralized credit facility, variable supply and self-adjusting interest rate, to regularly cross the stablecoin price over its value peg without affecting users.
 
